@@ -1,0 +1,40 @@
+pre-processing steps:
+1. enhancement 
+2. segmentation
+3. feature extraction (color and texture) 
+
+Feature Extraction Method:
+1. Histogram-based Features ->  Calculate histograms of pixel intensities, color channels, or texture descriptors to capture distribution information.
+2. Texture Features (prio: HOG[color], and LBP & GLCM [feature]) : Extract texture information using techniques like Local Binary Patterns (LBP), Gray-Level Co-occurrence Matrix (GLCM), or Gabor filters.
+
+
+feature selection
+
+WHAT I DID BY FAR:
+1. preprocessing5.py -> trial of k-means 
+2. preprocessing4.py -> background removal based on color thresholding and masking in the HSV (Hue, Saturation, Value) color space. 
+3. preprocessing6.py & preprocessing8.py -> removed the diseased part to the normal background
+4. preprocessing8.py -> histogram with k-means (unsure)
+5. histogram.py -> generate histogram for clustered_image.jpg
+6. histogram2.py -> generate 3 histogram namely: entire image, blast affected and normal
+7. segmentation2.py -> display the segmented image (unsure)
+8. segmentation3.py -> display entire image, blast affected and normal (unsure)
+
+'OTHER' folder:
+1. preprocessing.py -> method by Ramesh & Vydeki
+
+
+
+in the segmented image, separate the blasted region to the normal region through k-means clustering 
+
+dubey:
+1. understand the GCH to verify if color feature extraction is correct 
+2. Done with GCH not sure if correct 
+3. Done with CCV not sure if correct
+
+
+QUESTION:
+1. which is better GLCM or LBP for texture analysis?
+2. The difference of CCV and GCH to computing mean, standard deviation and skewness
+
+STOP HERE: LBP for feature extraction
