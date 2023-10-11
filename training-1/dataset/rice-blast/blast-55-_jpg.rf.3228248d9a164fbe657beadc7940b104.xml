@@ -1,0 +1,53 @@
+<annotation>
+	<folder></folder>
+	<filename>blast-55-_jpg.rf.3228248d9a164fbe657beadc7940b104.jpg</filename>
+	<path>blast-55-_jpg.rf.3228248d9a164fbe657beadc7940b104.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rice blast</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>277</xmin>
+			<xmax>384</xmax>
+			<ymin>240</ymin>
+			<ymax>342</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Rice blast</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>68</xmin>
+			<xmax>127</xmax>
+			<ymin>66</ymin>
+			<ymax>122</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Rice blast</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>32</xmin>
+			<xmax>111</xmax>
+			<ymin>107</ymin>
+			<ymax>193</ymax>
+		</bndbox>
+	</object>
+</annotation>

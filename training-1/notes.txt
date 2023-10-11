@@ -1,0 +1,62 @@
+bali acquisition -> annotation -> 1st phase testing with (m)svm
+after ma test pwede na gumawa ng pipeline for pre-process (though di ko sure kung ano ung pinakabest process, kumbago ano dapat mauna)
+normalize -> [norm-techniques -> resize] -> enhance -> segment  -> FE -> 2nd testing phase (vanilla msvm without FS)
+
+then gagawan na ng mga wrapper MSVM
+
+annotation:
+1. get annotated datasets - roboflow
+2. annotate own datasets 
+    2.1 manual - roboflow, makesense AI
+    2.2 automatic - 
+
+Roboflow 
+1. 
+
+MakeSense AI 
+1. upload image 
+2. rectangle can only be used as annotation to export VOC XML annotation file
+
+FILE: ovo.py and ovr.py
+1. train MSVM with images with the following disease -> annotation
+    1.1 Train MSVM with file method annotated images / folder method images
+    1.2 Train MSVM with the annotated images 
+
+    - what is the steps involve in supervised machine learning 
+        according to GPT (https://chat.openai.com/c/a9b1e31b-d76f-45b7-850e-98850b6f915f):
+        1. data collection and preprocessing (resize, convert color, flatten/reshape)
+        2. data splitting
+        3. feature scaling / normalization -> crucial for svm
+        4. SVM model selection
+        5. model training
+        6. model evaluation
+
+FLOW TO DO:
+1. segmentation and normalization of dataset
+2. study about the feature extraction to used 
+3. test with MSVM
+
+
+# CURRENT TRAIL OF FLOW:
+# 1. iterate to the dataset-color_enhanced folder
+#     segment each image and store segmented leaf images per class
+# 2. extract features for the segmented leaf image -> where to store?
+
+CURRENT PREPROCESSING:
+1. resize & white balance
+2. guassian blur / bilateral filter
+3. segment
+4. morphological operation
+
+TRIAL: SUCCESS
+1. resize & white balance
+2. bilateral filter
+3. edge detection
+
+
+NOW:
+1. Sir Mike (Consultation)
+    - fix dataset 70%/80% success semgented dataset
+    - feature extraction for each image per class 
+    - train MSVM with evaluation result
+2. improved no. 1 process / steps

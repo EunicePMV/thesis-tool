@@ -27,7 +27,7 @@ WHAT I DID BY FAR:
 
 in the segmented image, separate the blasted region to the normal region through k-means clustering 
 
-dubey:
+dubey (https://sci-hub.se/10.1007/s11760-015-0821-1):
 1. understand the GCH to verify if color feature extraction is correct 
 2. Done with GCH not sure if correct 
 3. Done with CCV not sure if correct
@@ -37,4 +37,43 @@ QUESTION:
 1. which is better GLCM or LBP for texture analysis?
 2. The difference of CCV and GCH to computing mean, standard deviation and skewness
 
-STOP HERE: LBP for feature extraction
+STOP HERE: feature combination
+
+TODO:
+- check matlab gui (app designer & gui[matlab])
+1. feature selection
+2. create desktop interface (tkinter)
+3. create website interface (django)
+4. find out what is bin used in preprocessing and feature extraction (GCH, CCV, LBP, CLBP)
+
+GUI:
+1. home page 
+2. action page (where to upload the image)
+    - button to upload image 
+    - container to display image 
+3. diagnosis is only below the picture
+
+bali acquisition -> annotation -> 1st phase testing with (m)svm
+after ma test pwede na gumawa ng pipeline for pre-process (though di ko sure kung ano ung pinakabest process, kumbago ano dapat mauna)
+normalize -> [norm-techniques -> resize] -> enhance -> segment  -> FE -> 2nd testing phase (vanilla msvm without FS)
+
+then gagawan na ng mga wrapper MSVM
+
+PRIORITY:
+1. workspace in tool development
+2. image annotation for supervise machine learning (annotate with the help of transfering the metadata into xml)
+
+
+annotation: manual or automatic 
+
+Manual:
+1. https://www.makesense.ai/
+
+annotation:
+1. get annotated datasets - roboflow
+2. annotate own datasets 
+    2.1 manual - roboflow, makesense AI
+    2.2 automatic - 
+
+STOP HERE:
+1. train msvm (kernel rbf) with the blb and rice blast 

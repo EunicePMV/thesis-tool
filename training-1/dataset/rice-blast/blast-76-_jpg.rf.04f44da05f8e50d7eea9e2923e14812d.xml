@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>blast-76-_jpg.rf.04f44da05f8e50d7eea9e2923e14812d.jpg</filename>
+	<path>blast-76-_jpg.rf.04f44da05f8e50d7eea9e2923e14812d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rice blast</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>163</xmin>
+			<xmax>270</xmax>
+			<ymin>113</ymin>
+			<ymax>274</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>BLIGHT-95-_jpg.rf.a867937f092639d9f5965462c088355e.jpg</filename>
+	<path>BLIGHT-95-_jpg.rf.a867937f092639d9f5965462c088355e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Blight</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>313</xmax>
+			<ymin>191</ymin>
+			<ymax>241</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Copy-of-TUNGRO1_052_jpg.rf.d16f5a93f3a0c83d6a89e2bbc06a91ca.jpg</filename>
+	<path>Copy-of-TUNGRO1_052_jpg.rf.d16f5a93f3a0c83d6a89e2bbc06a91ca.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tungro</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>85</xmin>
+			<xmax>182</xmax>
+			<ymin>27</ymin>
+			<ymax>411</ymax>
+		</bndbox>
+	</object>
+</annotation>
